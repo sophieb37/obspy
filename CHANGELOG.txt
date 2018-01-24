@@ -2,6 +2,9 @@ master:
  - obspy.core:
    * Casting FDSN identifiers to strings upon setting in the stats dictionary
      (see #1997).
+ - obspy.io.reftek:
+   * Implement reading reftek encodings '16' and '32' (uncompressed data,
+     16/32bit integers, see #2058 and #2059)
  - obspy.io.shapefile:
    * Add possibility to add custom database columns when writing catalog
      objects to shapefile (see #2012)
